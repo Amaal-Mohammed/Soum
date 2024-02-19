@@ -1,0 +1,5 @@
+pages\InventoryPage.class
+pages\CheckoutStepOne.class
+pages\CheckoutStepTwo.class
+pages\LoginPage.class
+pages\CartPage.class

@@ -1,0 +1,13 @@
+{
+  "url": "https://www.saucedemo.com/",
+  "item": "Sauce Labs Bike Light",
+  "expecteditemnumber": "1",
+  "za": "Name (Z to A)",
+  "expectedright": "20px",
+  "expectedtop": "10px",
+  "right": "right",
+  "top": "top",
+  "pagesubtitle": "Products",
+  "expectedtime": "2000",
+  "lockedusermsg": "Epic sadface: Sorry, this user has been locked out."
+}
