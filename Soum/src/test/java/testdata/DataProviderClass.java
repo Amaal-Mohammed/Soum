@@ -42,4 +42,17 @@ public class DataProviderClass {
 
     }
 
+    @DataProvider(name="ProductFilters")
+    public Object[][] getPageAndSize(){
+        return new Object[][]
+                {
+                        { "2" , "2" },
+                        {"2","3"},
+                        {"3","2"},
+                        {"1","469695"},
+
+                };
+
+    }
+
 }

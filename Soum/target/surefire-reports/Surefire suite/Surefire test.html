@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>17/9/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Feb 20 01:42:40 EET 2024</td>
+<td>Started on:</td><td>Thu Feb 22 03:11:36 EET 2024</td>
 </tr>
-<tr><td>Total time:</td><td>30 seconds (30341 ms)</td>
+<tr><td>Total time:</td><td>63 seconds (63594 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='login.LoginTests.checkPerformance()'><b>checkPerformance</b><br>Test class: login.LoginTests<br>Parameters: [TestResult name=testUserLogin status=SUCCESS method=LoginTests.testUserLogin(java.lang.String)[pri:0, instance:login.LoginTests@505fc5a4] output={null}], public void login.LoginTests.testUserLogin(java.lang.String) throws java.lang.InterruptedException</td>
-<td><div><pre>java.lang.AssertionError: Time taken for testUserLogin to run test is: 5356 miliiseconds while expected time should be 2000 miliiseconds 
+<td title='login.LoginTests.checkPerformance()'><b>checkPerformance</b><br>Test class: login.LoginTests<br>Parameters: [TestResult name=testUserLogin status=SUCCESS method=LoginTests.testUserLogin(java.lang.String)[pri:0, instance:login.LoginTests@4fb3ee4e] output={null}], public void login.LoginTests.testUserLogin(java.lang.String) throws java.lang.InterruptedException</td>
+<td><div><pre>java.lang.AssertionError: Time taken for testUserLogin to run test is: 5403 miliiseconds while expected time should be 2000 miliiseconds 
 	at login.LoginTests.checkPerformance(LoginTests.java:48)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1502843539", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1502843539'><pre>java.lang.AssertionError: Time taken for testUserLogin to run test is: 5356 miliiseconds while expected time should be 2000 miliiseconds 
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1227659410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1227659410'><pre>java.lang.AssertionError: Time taken for testUserLogin to run test is: 5403 miliiseconds while expected time should be 2000 miliiseconds 
 	at login.LoginTests.checkPerformance(LoginTests.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -123,7 +123,7 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
+<td>login.LoginTests@4fb3ee4e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -137,7 +137,7 @@ function toggleAllBoxes() {
 <td title='login.LoginTests.tearDown()'><b>tearDown</b><br>Test class: login.LoginTests</td>
 <td></td>
 <td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
+<td>login.LoginTests@4fb3ee4e</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
@@ -148,13 +148,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
-<td><div><pre>java.lang.AssertionError: App is not reset to its original state
-	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+<td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
+<td><div><pre>java.lang.AssertionError: Css style is not correct
+	at inventory.InventoryTests.testCartStyle(InventoryTests.java:76)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2099878104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2099878104'><pre>java.lang.AssertionError: App is not reset to its original state
-	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace414453734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace414453734'><pre>java.lang.AssertionError: Css style is not correct
+	at inventory.InventoryTests.testCartStyle(InventoryTests.java:76)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -190,14 +190,14 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 <tr>
 <td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
 <td><div><pre>java.lang.AssertionError: App is not reset to its original state
 	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1403380247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1403380247'><pre>java.lang.AssertionError: App is not reset to its original state
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace976807132", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace976807132'><pre>java.lang.AssertionError: App is not reset to its original state
 	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -234,14 +234,58 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='api.GetProductsTests.request_Product_Page_Size()'><b>request_Product_Page_Size</b><br>Test class: api.GetProductsTests<br>Parameters: 1, 469695</td>
+<td><div><pre>java.lang.AssertionError: Status code is not correct 502 io.restassured.internal.RestAssuredResponseImpl@4860827a
+	at api.GetProductsTests.request_Product_Page_Size(GetProductsTests.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1269230672", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1269230672'><pre>java.lang.AssertionError: Status code is not correct 502 io.restassured.internal.RestAssuredResponseImpl@4860827a
+	at api.GetProductsTests.request_Product_Page_Size(GetProductsTests.java:40)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>26</td>
+<td>api.GetProductsTests@6cd28fa7</td></tr>
 <tr>
 <td title='inventory.InventoryTests.testSort()'><b>testSort</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
 <td><div><pre>java.lang.AssertionError: Sort Filter is not working
 	at inventory.InventoryTests.testSort(InventoryTests.java:63)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace294649085", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace294649085'><pre>java.lang.AssertionError: Sort Filter is not working
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace435875276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace435875276'><pre>java.lang.AssertionError: Sort Filter is not working
 	at inventory.InventoryTests.testSort(InventoryTests.java:63)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -278,234 +322,14 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
-<td><div><pre>java.lang.AssertionError: Add/Remove Button is not working
-	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace261052089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace261052089'><pre>java.lang.AssertionError: Add/Remove Button is not working
-	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
-<td><div><pre>java.lang.AssertionError: Add/Remove Button is not working
-	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace369333979", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace369333979'><pre>java.lang.AssertionError: Add/Remove Button is not working
-	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
-<td><div><pre>java.lang.AssertionError: App is not reset to its original state
-	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace129924629", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace129924629'><pre>java.lang.AssertionError: App is not reset to its original state
-	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
-<td><div><pre>java.lang.AssertionError: Css style is not correct
-	at inventory.InventoryTests.testCartStyle(InventoryTests.java:76)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1901018532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1901018532'><pre>java.lang.AssertionError: Css style is not correct
-	at inventory.InventoryTests.testCartStyle(InventoryTests.java:76)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
-<td><div><pre>java.lang.AssertionError: App is not reset to its original state
-	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace60187547", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace60187547'><pre>java.lang.AssertionError: App is not reset to its original state
-	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 <tr>
 <td title='inventory.InventoryTests.testSort()'><b>testSort</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
 <td><div><pre>java.lang.AssertionError: Sort dropdown is broken
 	at inventory.InventoryTests.testSort(InventoryTests.java:65)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1753645864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1753645864'><pre>java.lang.AssertionError: Sort dropdown is broken
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1810327249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1810327249'><pre>java.lang.AssertionError: Sort dropdown is broken
 	at inventory.InventoryTests.testSort(InventoryTests.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -542,7 +366,227 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
+<td><div><pre>java.lang.AssertionError: Add/Remove Button is not working
+	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1514723919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1514723919'><pre>java.lang.AssertionError: Add/Remove Button is not working
+	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
+<td><div><pre>java.lang.AssertionError: App is not reset to its original state
+	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace510382691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace510382691'><pre>java.lang.AssertionError: App is not reset to its original state
+	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
+<td><div><pre>java.lang.AssertionError: App is not reset to its original state
+	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace536674580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace536674580'><pre>java.lang.AssertionError: App is not reset to its original state
+	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
+<td><div><pre>java.lang.AssertionError: Add/Remove Button is not working
+	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace671187578", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace671187578'><pre>java.lang.AssertionError: Add/Remove Button is not working
+	at inventory.InventoryTests.testUserIsAbleToClickAddToCard(InventoryTests.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testResetApp()'><b>testResetApp</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
+<td><div><pre>java.lang.AssertionError: App is not reset to its original state
+	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1388972756", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1388972756'><pre>java.lang.AssertionError: App is not reset to its original state
+	at inventory.InventoryTests.testResetApp(InventoryTests.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -553,90 +597,105 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
+<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: problem_user</td>
 <td></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>login.LoginTests@4fb3ee4e</td></tr>
 <tr>
-<td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
+<td title='api.GetProductsTests.request_Product_Page_Size()'><b>request_Product_Page_Size</b><br>Test class: api.GetProductsTests<br>Parameters: 3, 2</td>
 <td></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: standard_user</td>
-<td></td>
-<td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
-<td></td>
-<td>1</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
-<td></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: visual_user</td>
-<td></td>
-<td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
-<td></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testSort()'><b>testSort</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
-<td></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
-<tr>
-<td title='login.LoginTests.testLockedUserLogin()'><b>testLockedUserLogin</b><br>Test class: login.LoginTests<br>Parameters: locked_out_user</td>
-<td></td>
-<td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
-<tr>
-<td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
-<td></td>
-<td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>api.GetProductsTests@6cd28fa7</td></tr>
 <tr>
 <td title='inventory.InventoryTests.testSort()'><b>testSort</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
 <td></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 <tr>
-<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: problem_user</td>
+<td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
 <td></td>
 <td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
-<tr>
-<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: error_user</td>
-<td></td>
-<td>0</td>
-<td>login.LoginTests@505fc5a4</td></tr>
-<tr>
-<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: performance_glitch_user</td>
-<td></td>
-<td>5</td>
-<td>login.LoginTests@505fc5a4</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 <tr>
 <td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
 <td></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 <tr>
-<td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
+<td title='api.GetProductsTests.request_Product_Page_Size()'><b>request_Product_Page_Size</b><br>Test class: api.GetProductsTests<br>Parameters: 2, 2</td>
+<td></td>
+<td>3</td>
+<td>api.GetProductsTests@6cd28fa7</td></tr>
+<tr>
+<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: standard_user</td>
 <td></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>login.LoginTests@4fb3ee4e</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
+<td></td>
+<td>1</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: visual_user</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTests@4fb3ee4e</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, error_user</td>
+<td></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='api.GetProductsTests.request_Product_Page_Size()'><b>request_Product_Page_Size</b><br>Test class: api.GetProductsTests<br>Parameters: 2, 3</td>
+<td></td>
+<td>1</td>
+<td>api.GetProductsTests@6cd28fa7</td></tr>
+<tr>
+<td title='login.LoginTests.testLockedUserLogin()'><b>testLockedUserLogin</b><br>Test class: login.LoginTests<br>Parameters: locked_out_user</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTests@4fb3ee4e</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testUserIsAbleToClickAddToCard()'><b>testUserIsAbleToClickAddToCard</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
+<td></td>
+<td>1</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 <tr>
 <td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, problem_user</td>
 <td></td>
 <td>0</td>
-<td>inventory.InventoryTests@3d6f0054</td></tr>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: performance_glitch_user</td>
+<td></td>
+<td>5</td>
+<td>login.LoginTests@4fb3ee4e</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
+<td></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testItemAddedFromCartContainer()'><b>testItemAddedFromCartContainer</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
+<td></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='login.LoginTests.testUserLogin()'><b>testUserLogin</b><br>Test class: login.LoginTests<br>Parameters: error_user</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTests@4fb3ee4e</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testSort()'><b>testSort</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, visual_user</td>
+<td></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
+<tr>
+<td title='inventory.InventoryTests.testCartStyle()'><b>testCartStyle</b><br>Test class: inventory.InventoryTests<br>Parameters: session-username, standard_user</td>
+<td></td>
+<td>0</td>
+<td>inventory.InventoryTests@f5acb9d</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,6 +1,7 @@
 inventory\InventoryTests.class
+api\GetProductsTests.class
+testdata\ReadJson$1.class
+login\LoginTests.class
 testdata\ReadJson.class
 base\BaseTests.class
 testdata\DataProviderClass.class
-testdata\ReadJson$1.class
-login\LoginTests.class

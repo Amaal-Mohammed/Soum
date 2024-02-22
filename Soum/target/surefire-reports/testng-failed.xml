@@ -3,12 +3,18 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="api.GetProductsTests">
+        <methods>
+          <include name="request_Product_Page_Size" invocation-numbers="3"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- api.GetProductsTests -->
       <class name="inventory.InventoryTests">
         <methods>
           <include name="setUp"/>
+          <include name="testResetApp" invocation-numbers="0 1 2 3"/>
           <include name="testCartStyle" invocation-numbers="1"/>
           <include name="testSort" invocation-numbers="2 3"/>
-          <include name="testResetApp" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
           <include name="testUserIsAbleToClickAddToCard" invocation-numbers="2 3"/>
         </methods>
